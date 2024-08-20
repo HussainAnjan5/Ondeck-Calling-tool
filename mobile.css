@@ -1,0 +1,47 @@
+@media only screen and (max-width:338px){
+    .container{
+        display: grid;
+        /* grid-gap: 1rem; */
+        /* background-color: rgb(241, 241, 241); */
+        grid-template-areas: 
+        ' items logo'
+        'left-box left-box';
+    }
+    .items{
+        display: none;
+    }
+    #right-box{
+        display: none;
+    }
+    .topbar .items{
+        display: none;
+    }
+    .topbar .logo{
+        display: none;
+    }
+    #main-block{
+        font-size: 10px;
+    }
+}
+.parts{
+    grid-area: parts;
+}
+#topbar{
+    grid-area: topbar;
+}
+.items{
+    grid-area: items;
+}
+.first{
+    grid-area: first;
+
+}
+.second-block{
+    grid-area: secod-block;
+}
+button{
+    grid-area: button;
+}
+.review{
+    grid-area: review;
+}
